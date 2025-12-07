@@ -2,15 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+title: Yunosuke Nakamura # the website title (if blank, full name will be used instead)
+first_name: Yunosuke 
+middle_name:
+last_name: Nakamura
+# Replace it with:
+keywords: mechanical engineering, robotics, control systems, formula electric, uc berkeley, portfolio
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://george-gca.github.io # the base hostname & protocol for your site
-baseurl: /multi-language-al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
+url: https://Ag3ntN.github.io # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -162,32 +163,25 @@ kramdown:
 
 # Includes & excludes
 include: ["_pages", "_scripts"]
+# Find the "exclude:" section. 
+# Remove lines like "CONTRIBUTING.pt-br.md" or "_pages/pt-br/..." if you see them.
+# Ensure it looks like this (simplified):
+
 exclude:
   - bin/
   - CONTRIBUTING.md
-  - CONTRIBUTING.pt-br.md
   - CUSTOMIZE.md
-  - CUSTOMIZE.pt-br.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
   - FAQ.md
-  - FAQ.pt-br.md
   - Gemfile
   - Gemfile.lock
   - INSTALL.md
-  - INSTALL.pt-br.md
   - LICENSE
-  - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/en-us/about_einstein.md
-  - _pages/pt-br/about_einstein.md
-  - purgecss.config.js
   - README.md
-  - README.pt-br.md
-  - readme_preview/
-  - UPGRADING.md
   - vendor
 keep_files:
   - CNAME
@@ -344,8 +338,9 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br", "fr-ca"]
-default_lang: "en-us"
+# Replace with:
+languages: ["en", "ja"]
+default_lang: "en"
 exclude_from_localization: ["assets"]
 lang_from_path: true
 country_flag: false # set true for allowing flag symbol in language toggle
