@@ -11,7 +11,6 @@ profile:
   image_circular: false
   more_info: >
     <p>BSME @ UC Berkeley</p>
-    <p>Berkeley, CA</p>
     <div style="margin-top: 15px; display: flex; justify-content: center; gap: 10px;">
       <a href="https://www.berkeley.edu/" target="_blank" title="UC Berkeley">
         <img src="/assets/img/berkeley.png" style="height: 40px; width: auto;" alt="Cal">
