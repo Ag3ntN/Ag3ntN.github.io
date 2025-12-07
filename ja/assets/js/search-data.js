@@ -122,51 +122,11 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/ja/books/pt-br/the_godfather/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-undergraduate-researcher",
+          title: 'Undergraduate Researcher',
+          description: "Mechanical Systems Control Lab",
           section: "projets",handler: () => {
-              window.location.href = "/ja/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "projets",handler: () => {
-              window.location.href = "/ja/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "projets",handler: () => {
-              window.location.href = "/ja/projects/9_project/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "projets",handler: () => {
-              window.location.href = "/ja/projects/en-us/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "projets",handler: () => {
-              window.location.href = "/ja/projects/en-us/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "projets",handler: () => {
-              window.location.href = "/ja/projects/en-us/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "projets",handler: () => {
-              window.location.href = "/ja/projects/en-us/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "projets",handler: () => {
-              window.location.href = "/ja/projects/en-us/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "projets",handler: () => {
-              window.location.href = "/ja/projects/en-us/6_project/";
+              window.location.href = "/ja/projects/en/1_msc/";
             },},{
         id: 'social-email',
         title: 'envoyer un courriel',
