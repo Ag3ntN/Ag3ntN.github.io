@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Yunosuke Nakamura # the website title (if blank, full name will be used instead)
-first_name: Yunosuke (Yuno)
-middle_name: Leo
+title: Yunosuke (Yuno) Nakamura # the website title (if blank, full name will be used instead)
+first_name: Yunosuke
+middle_name:
 last_name: Nakamura
 # Replace it with:
 keywords: mechanical engineering, robotics, control systems, formula electric, uc berkeley, portfolio
@@ -15,6 +15,20 @@ baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
+
+contact_note:
+
+# -----------------------------------------------------------------------------
+# Social Integrations
+# -----------------------------------------------------------------------------
+
+email: yuno@berkeley.edu  # Add your actual email
+linkedin_username: yunosuke-nakamura # Add your LinkedIn username (not the whole URL)
+github_username: Ag3ntN # Your GitHub username
+google_scholar_id:  # Paste your ID here to replace Einstein, or leave blank to remove
+orcid_id:           # Leave blank to remove the green ID icon
+twitter_username:   # Leave blank if you don't use it
+rss_icon: false     # Set to false to hide the RSS (wifi symbol) icon
 
 # -----------------------------------------------------------------------------
 # Theme
