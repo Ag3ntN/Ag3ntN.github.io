@@ -22,14 +22,6 @@ contact_note:
 # Social Integrations
 # -----------------------------------------------------------------------------
 
-email: yuno@berkeley.edu  # Add your actual email
-linkedin_username: yunosuke-nakamura # Add your LinkedIn username (not the whole URL)
-github_username: Ag3ntN # Your GitHub username
-google_scholar_id:  # Paste your ID here to replace Einstein, or leave blank to remove
-orcid_id:           # Leave blank to remove the green ID icon
-twitter_username:   # Leave blank if you don't use it
-rss_icon: false     # Set to false to hide the RSS (wifi symbol) icon
-
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
