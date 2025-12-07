@@ -20,6 +20,10 @@ blog:
 categories:
   fun: fun
   work: work
+  "Mechanical Systems Control Lab": Mechanical Systems Control Lab
+  "Formula Electric at Berkeley": Formula Electric at Berkeley
+  "Renatus Robotics": Renatus Robotics
+  "FRC 199": FRC 199
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"

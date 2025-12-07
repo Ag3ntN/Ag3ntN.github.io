@@ -8,7 +8,7 @@ middle_name:
 last_name: Nakamura
 # Replace it with:
 keywords: mechanical engineering, robotics, control systems, formula electric, uc berkeley, portfolio
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: y.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://Ag3ntN.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
