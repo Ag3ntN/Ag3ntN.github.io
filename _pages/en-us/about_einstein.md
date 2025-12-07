@@ -1,5 +1,5 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a first-year at the **University of California, Berkeley**, majoring in **Mechanical Engineering** with a minor in **Electrical Engineering and Computer Sciences (EECS)**. I am currently an undergraduate researcher at the [Mechanical Systems Controls (MSC) Lab](https://msc.berkeley.edu/) and Vehicle Dynamics Engineer at [Formula Electric at Berkeley](https://ev.studentorg.berkeley.edu/)
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/multi-language-al-folio/publications/) automatically.
+I am also a **Masason Foundation Scholar** (8th Generation), a community of youth supported by the foundation established by Masayoshi Son, receiving **full funding for my education and grants for research projects**. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am passionate about engineering solutions in robotics.
