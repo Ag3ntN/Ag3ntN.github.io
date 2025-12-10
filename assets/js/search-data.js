@@ -59,9 +59,9 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/books/pt-br/the_godfather/";
-            },},{id: "projects-undergraduate-researcher",
-          title: 'Undergraduate Researcher',
-          description: "Mechanical Systems Control Lab",
+            },},{id: "projects-dexco-teleoperation-system",
+          title: 'DexCo Teleoperation System',
+          description: "Haptic Teleoperation &amp; Control Loop",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en/1_msc/";
             },},{

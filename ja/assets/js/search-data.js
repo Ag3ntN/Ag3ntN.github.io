@@ -14,83 +14,13 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-sobre",
-    title: "sobre",
+    id: "nav-about",
+    title: "about",
     section: "menu de navigation",
     handler: () => {
       window.location.href = "/ja/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "um tema simples para acadêmicos",
-          section: "menu de navigation",
-          handler: () => {
-            window.location.href = "/ja/blog/";
-          },
-        },{id: "nav-publicações",
-          title: "publicações",
-          description: "publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.",
-          section: "menu de navigation",
-          handler: () => {
-            window.location.href = "/ja/publications/";
-          },
-        },{id: "nav-projetos",
-          title: "projetos",
-          description: "Uma crescente coleção de seus projetos interessantes.",
-          section: "menu de navigation",
-          handler: () => {
-            window.location.href = "/ja/projects/";
-          },
-        },{id: "nav-repositórios",
-          title: "repositórios",
-          description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
-          section: "menu de navigation",
-          handler: () => {
-            window.location.href = "/ja/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "Esta é uma descrição da página. Você pode modificá-la em &#39;_pages/cv.md&#39;. Também pode alterar ou remover o botão no topo de download de pdf.",
-          section: "menu de navigation",
-          handler: () => {
-            window.location.href = "/ja/cv/";
-          },
-        },{id: "nav-ensino",
-          title: "ensino",
-          description: "Materiais de cursos que você ministrou. Substitua esse texto com sua descrição.",
-          section: "menu de navigation",
-          handler: () => {
-            window.location.href = "/ja/teaching/";
-          },
-        },{id: "nav-membros",
-          title: "membros",
-          description: "membros do grupo de pesquisa ou laboratório",
-          section: "menu de navigation",
-          handler: () => {
-            window.location.href = "/ja/people/";
-          },
-        },{id: "dropdown-publicações",
-              title: "publicações",
-              description: "",
-              section: "déroulant",
-              handler: () => {
-                window.location.href = "/ja/publications/";
-              },
-            },{id: "dropdown-projetos",
-              title: "projetos",
-              description: "",
-              section: "déroulant",
-              handler: () => {
-                window.location.href = "/ja/projects/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "déroulant",
-              handler: () => {
-                window.location.href = "/ja/blog/";
-              },
-            },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+  },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
           title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -122,9 +52,9 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/ja/books/pt-br/the_godfather/";
-            },},{id: "projects-undergraduate-researcher",
-          title: 'Undergraduate Researcher',
-          description: "Mechanical Systems Control Lab",
+            },},{id: "projects-dexco-teleoperation-system",
+          title: 'DexCo Teleoperation System',
+          description: "Haptic Teleoperation &amp; Control Loop",
           section: "projets",handler: () => {
               window.location.href = "/ja/projects/en/1_msc/";
             },},{
