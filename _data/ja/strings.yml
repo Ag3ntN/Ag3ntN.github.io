@@ -1,164 +1,169 @@
 archive:
-  prefix: une archive de
-  category_suffix: dans cette catégorie
-  tag_suffix: avec ce tag
-  year_suffix: de cette année
+  prefix: an archive of
+  category_suffix: in this category
+  tag_suffix: with this tag
+  year_suffix: from this year
 bibliography:
-  abstract: résumé
-  awarded: prix
-  blog: blogue
-  book_prefix: dans
-  code: code
-  last_author_prefix: et
-  poster: affiche
-  slides: diapos
-  supp: supp
-  video: vidéo
-  website: site web
+  abstract: Abs
+  awarded: Awarded
+  blog: Blog
+  book_prefix: In
+  code: Code
+  last_author_prefix: and
+  poster: Poster
+  slides: Slides
+  supp: Supp
+  video: Video
+  website: Website
 blog:
-  navigation_title: blogue
+  navigation_title: blog
 categories:
-  fun: extra
-  work: travail
+  fun: fun
+  work: work
+  MSC: Mechanical Systems Control Lab
+  Formula: Formula Electric at Berkeley
+  Renatus: Renatus Robotics
+  FRC: FRC 199
+  Misc: Other Projects
 citation:
-  bibtex: "ou comme entrée BibTeX:"
-  introduction: "Si vous avez trouvé cela utile, veuillez le citer comme suit:"
+  bibtex: "or as a BibTeX entry:"
+  introduction: "If you found this useful, please cite this as:"
 collections:
-  books: livres
-  posts: articles
-contact_note: Vous pouvez même ajouter une petite note indiquant lequel de ces moyens est le meilleur pour vous joindre.
+  books: books
+  posts: posts
+contact_note: Feel free to reach out to me via email!
 cv:
-  address: adresse
-  area: région
-  awarder: récipient(e)
-  awards: prixs
-  basics: informations générales
-  certificates: certificats
-  city: ville
-  countryCode: paysCode
-  courses: cours
-  date: date
-  education: éducation
-  email: courriel
-  endDate: date de fin
-  fluency: maîtrise
-  highlights: points clés
-  image: image
-  institution: institution
-  interests: intérêts
-  issuer: émetteur
-  keywords: mots-clés
-  label: poste
-  language: langue
-  languages: langues
-  level: niveau
-  location: emplacement
-  name: nom
-  network: réseau
-  organization: organisation
-  phone: téléphone
-  position: poste
-  postalCode: code postal
-  present: Présent
-  profiles: profils
-  projects: projets
-  publications: publications
-  publisher: éditeur
-  reference: référence
-  references: références
-  region: région
-  releaseDate: date de publication
-  score: score
-  skills: compétences
-  startDate: date de début
-  studyType: "domaine d'études"
-  summary: résumé
-  table_of_contents: table des matières
-  title: titre
-  url: site web
-  username: nom d'utilisateur
-  volunteer: bénévolat
-  work: travail
+  address: Address
+  area: Area
+  awarder: Awarder
+  awards: Awards
+  basics: General information
+  certificates: Certificates
+  city: City
+  countryCode: Country code
+  courses: Courses
+  date: Date
+  education: Education
+  email: Email
+  endDate: End date
+  fluency: Fluency
+  highlights: Highlights
+  image: Image
+  institution: Institution
+  interests: Interests
+  issuer: Issuer
+  keywords: Keywords
+  label: Label
+  language: Language
+  languages: Languages
+  level: Level
+  location: Location
+  name: Name
+  network: Network
+  organization: Organization
+  phone: Phone
+  position: Position
+  postalCode: Postal Code
+  present: Present
+  profiles: Profiles
+  projects: Projects
+  publications: Publications
+  publisher: Publisher
+  reference: Reference
+  references: References
+  region: Region
+  releaseDate: Release date
+  score: Score
+  skills: Skills
+  startDate: Start date
+  studyType: Study type
+  summary: Summary
+  table_of_contents: Table of Contents
+  title: Title
+  url: Url
+  username: Username
+  volunteer: Volunteer
+  work: Work
 footer:
-  copyright: "Droits d'auteur"
-  last_updated: "Dernière mise à jour le "
+  copyright: Copyright
+  last_updated: "Last updated:"
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  Propulsé par <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> avec le thème <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
-  Hébergé par <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos de <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-latest_posts: derniers articles
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+latest_posts: latest posts
 months:
   long:
-    january: janvier
-    february: février
-    march: mars
-    april: avril
-    may: mai
-    june: juin
-    july: juillet
-    august: août
-    september: septembre
-    october: octobre
-    november: novembre
-    december: décembre
+    january: January
+    february: February
+    march: March
+    april: April
+    may: May
+    june: June
+    july: July
+    august: August
+    september: September
+    october: October
+    november: November
+    december: December
   short:
-    january: jan
-    february: fév
-    march: mar
-    april: avr
-    may: mai
-    june: jun
-    july: jul
-    august: aoû
-    september: sep
-    october: oct
-    november: nov
-    december: déc
-news: actualités
+    january: Jan
+    february: Feb
+    march: Mar
+    april: Apr
+    may: May
+    june: Jun
+    july: Jul
+    august: Aug
+    september: Sep
+    october: Oct
+    november: Nov
+    december: Dec
+news: news
 newsletter:
-  back: retour
-  error: "Oups ! Quelque chose s'est mal passé, veuillez réessayer."
-  subscribe: "s'abonner"
-  subscribed: "Vous vous êtes abonné(e) à la newsletter avec succès."
-  subscribe_to_receive: "Abonnez-vous pour être informé(e) des prochains articles:"
-  too_many_signups: "Trop d'inscriptions, veuillez réessayer plus tard."
-  wait: "Veuillez patienter..."
-no_news: "Aucune actualité pour l'instant..."
-no_posts: "Aucun article pour le moment..."
+  back: Back
+  error: "Oops! Something went wrong, please try again."
+  subscribe: subscribe
+  subscribed: "You have successfully subscribed to the newsletter."
+  subscribe_to_receive: "Subscribe to be notified of future articles:"
+  too_many_signups: "Too many signups, please try again in a little while"
+  wait: "Please wait..."
+no_news: No news so far...
+no_posts: "No posts so far..."
 pagination:
   page: page
 post:
-  created_in: Créé le
-  created_by: par
-  last_updated: "Dernière mise à jour le "
-references: références
+  created_in: Created in
+  created_by: by
+  last_updated: last updated in
+references: References
 related_posts:
-  description: "Voici d'autres articles que vous pourriez aimer lire ensuite :"
-  title: "Vous avez aimé lire cet article ?"
+  description: "Here are some more articles you might like to read next:"
+  title: Enjoy Reading This Article?
 search:
   dark_theme:
-    description: changer le thème du site en sombre
-    title: changer le thème en sombre
-  dropdown: déroulant
-  email: envoyer un courriel
+    description: Change the theme of the site to Dark
+    title: Change theme to dark
+  dropdown: Dropdown
+  email: Send an email
   footer:
-    close: fermer
-    navigate: naviguer
-    parent: revenir au parent
-    select: sélectionner
-  languages: langues
+    close: to close
+    navigate: to navigate
+    parent: move to parent
+    select: to select
+  languages: Languages
   light_theme:
-    description: changer le thème du site en clair
-    title: changer le thème en clair
-  navigation: menu de navigation
-  news: actualités
-  placeholder: Tapez pour commencer la recherche
-  posts: articles
-  projects: projets
-  socials: réseaux sociaux
+    description: Change the theme of the site to Light
+    title: Change theme to light
+  navigation: Navigation menu
+  news: News
+  placeholder: Type to start searching
+  posts: Posts
+  projects: Projects
+  socials: Socials
   system_theme:
-    description: changer le thème du site selon le système par défaut
-    title: utiliser le thème par défaut du système
-  theme: thème
-selected_publications: publications sélectionnées
-site_description: Un thème simple et épuré pour les académiques. Basé sur le design de [*folio](https://github.com/bogoli/-folio).
+    description: Change the theme of the site to System Default
+    title: Use system default theme
+  theme: Theme
+selected_publications: selected publications
+site_description: A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.

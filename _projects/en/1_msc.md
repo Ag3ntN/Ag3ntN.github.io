@@ -7,7 +7,7 @@ importance: 1
 category: MSC
 related_publications: false
 ---
-
+2025 October-Present
 **Status:** Ongoing Project at Mechanical Systems Control (MSC) Lab, so more to come later!
 This project is currently advised by advised by **Dr. Junda Huang, Dr.Jianshu Zhou and Professor Masayoshi Tomizuka**.
 

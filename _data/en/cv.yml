@@ -2,100 +2,82 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Yunosuke Nakamura
+    - name: Education
+      value: B.S. Mechanical Engineering, UC Berkeley (Expected May 2029)
+    - name: Email
+      value: yuno@berkeley.edu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: B.S. Mechanical Engineering
+      institution: University of California, Berkeley
+      year: Aug 2025 - Present
+      description: >
+        Minor: Electrical Engineering and Computer Sciences (EECS) <br>
+        Awards: Masason Foundation Scholar (Full-ride merit scholarship for top innovators)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Undergraduate Researcher
+      institution: Mechanical Systems Control (MSC) Lab, UC Berkeley
+      year: Sep 2025 - Present
+      description: >
+        - Developing a Master-Slave teleoperation system for the DexCo soft robotic hand, mapping human kinematics to hydraulic syringe actuators.
+        - Wrote embedded C++ firmware for ESP32 to implement PID control loops, managing I2C communication for AS5600 magnetic encoders.
+        - Built a custom Python (PyQt5) control dashboard to visualize real-time pressure/position telemetry and handle serial communication protocols.
+        - Designed and wired the electrical interface between the microcontroller, custom PCBs, and PWM motor drivers.
+    - title: Vehicle Dynamics Engineer
+      institution: Formula Electric at Berkeley
+      year: Sep 2025 - Present
+      description: >
+        - Engineered the rear Anti-Roll Bar (ARB) system using AISI 4130 steel, incorporating a 3-lever arm design for adjustable stiffness.
+        - Conducted Finite Element Analysis (FEA) in Ansys to validate structural integrity under torsional loads, achieving a 1.4 Safety Factor.
+        - Achieved a 36% mass reduction in the ARB assembly compared to the previous iteration through geometry optimization.
+        - Designed the suspension rocker plate for a double-wishbone configuration, optimizing for buckling resistance.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Research Assistant
+      institution: Goda Laboratory, University of Tokyo
+      year: Jun 2025 - Aug 2025
+      description: >
+        - Developed a robotic manipulation system for extracting larvae from fluid-filled vials using a Dobot Nova arm.
+        - Implemented stereo vision with dual Zelux cameras to triangulate position and track larval motion in real-time using DeepSORT.
+        - Designed lightweight computer vision algorithms (background subtraction, Lucas-Kanade optical flow) for robust detection in fluid environments.
+        - [View Code on GitHub](https://github.com/Ag3ntN/dobot-nova-control-goda-lab)
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Mechanical Engineering Intern
+      institution: Renatus Robotics Inc. (Tokyo)
+      year: Jan 2025 - Aug 2025
+      description: >
+        - Engineered a two-stage cascading elevator fork to maximize vertical reach in automated warehouse racks.
+        - Designed and validated a motor testbed using ESP32 microcontrollers with CANBus communication for inertial wheel experiments.
+        - Performed static structural FEA on the cargo lifter cage to ensure rigidity and safety under dynamic loading conditions.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>
-      year: 2023-now
-      description: A fork of al-folio theme with support for multiple languages.
+    - title: National Champion
+      institution: V5 Robotics Competition Japan
+      year: 2025
+    - title: International First Place
+      institution: Real World Design Challenge
+      year: 2024
+    - title: Dean's List Finalist
+      institution: FIRST Robotics Competition
+      year: 2023
 
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Engineering & CAD
+      items: 
+        - SolidWorks, Fusion 360, Onshape (Associate Certified)
+        - Ansys Mechanical (FEA), CAM & CNC Milling
+        - Mechanism Design, Rapid Prototyping
+    - title: Robotics & Code
+      items: 
+        - Python (OpenCV, NumPy, Matplotlib)
+        - C++, Java, JavaScript
+        - ROS, PID Control, Kalman Filtering, Path Planning, Pure Pursuit
