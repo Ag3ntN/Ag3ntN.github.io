@@ -14,8 +14,8 @@
     - title: B.S. Mechanical Engineering
       institution: University of California, Berkeley
       year: Aug 2025 - Present
-      description: >
-        Minor: Electrical Engineering and Computer Sciences (EECS) <br>
+      description: |
+        Minor: Electrical Engineering and Computer Sciences (EECS)
         Awards: Masason Foundation Scholar (Full-ride merit scholarship for top innovators)
 
 - title: Experience
@@ -24,15 +24,16 @@
     - title: Undergraduate Researcher
       institution: Mechanical Systems Control (MSC) Lab, UC Berkeley
       year: Sep 2025 - Present
-      description: >
+      description: |
         - Developing a Master-Slave teleoperation system for the DexCo soft robotic hand, mapping human kinematics to hydraulic syringe actuators.
         - Wrote embedded C++ firmware for ESP32 to implement PID control loops, managing I2C communication for AS5600 magnetic encoders.
         - Built a custom Python (PyQt5) control dashboard to visualize real-time pressure/position telemetry and handle serial communication protocols.
         - Designed and wired the electrical interface between the microcontroller, custom PCBs, and PWM motor drivers.
+
     - title: Vehicle Dynamics Engineer
       institution: Formula Electric at Berkeley
       year: Sep 2025 - Present
-      description: >
+      description: |
         - Engineered the rear Anti-Roll Bar (ARB) system using AISI 4130 steel, incorporating a 3-lever arm design for adjustable stiffness.
         - Conducted Finite Element Analysis (FEA) in Ansys to validate structural integrity under torsional loads, achieving a 1.4 Safety Factor.
         - Achieved a 36% mass reduction in the ARB assembly compared to the previous iteration through geometry optimization.
@@ -41,7 +42,7 @@
     - title: Research Assistant
       institution: Goda Laboratory, University of Tokyo
       year: Jun 2025 - Aug 2025
-      description: >
+      description: |
         - Developed a robotic manipulation system for extracting larvae from fluid-filled vials using a Dobot Nova arm.
         - Implemented stereo vision with dual Zelux cameras to triangulate position and track larval motion in real-time using DeepSORT.
         - Designed lightweight computer vision algorithms (background subtraction, Lucas-Kanade optical flow) for robust detection in fluid environments.
@@ -50,7 +51,7 @@
     - title: Mechanical Engineering Intern
       institution: Renatus Robotics Inc. (Tokyo)
       year: Jan 2025 - Aug 2025
-      description: >
+      description: |
         - Engineered a two-stage cascading elevator fork to maximize vertical reach in automated warehouse racks.
         - Designed and validated a motor testbed using ESP32 microcontrollers with CANBus communication for inertial wheel experiments.
         - Performed static structural FEA on the cargo lifter cage to ensure rigidity and safety under dynamic loading conditions.
