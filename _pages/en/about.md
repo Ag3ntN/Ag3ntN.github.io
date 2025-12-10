@@ -21,20 +21,23 @@ profile:
       <a href="https://ev.studentorg.berkeley.edu/" target="_blank" title="Formula Electric">
         <img src="/assets/img/formula.png" style="height: 40px; width: auto;" alt="Formula EV">
       </a>
+      <a href="https://masason-foundation.org/en/" target="_blank" title="Masason Foundation">
+        <img src="/assets/img/MASASON_FOUNDATION_LOGO.png" style="height: 40px; width: auto;" alt="Masason Foundation">
+      </a>
     </div>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
 I am a first-year at the **University of California, Berkeley**, majoring in **Mechanical Engineering** with a minor in **Electrical Engineering and Computer Sciences (EECS)**. 

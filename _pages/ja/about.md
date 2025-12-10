@@ -1,27 +1,46 @@
 ---
 page_id: about
 layout: about
-title: sobre
+title: about
 permalink: /
-subtitle: <a href='#'>Afiliações</a>. Endereço. Contatos. Lema. Etc.
+subtitle: Hello!
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 seu telefone do trabalho</p>
-    <p>123 seu endereço</p>
-    <p>Sua cidade, estado 12345</p>
+    <p>BSME @ UC Berkeley</p>
+    <div style="margin-top: 15px; display: flex; justify-content: center; gap: 10px;">
+      <a href="https://www.berkeley.edu/" target="_blank" title="UC Berkeley">
+        <img src="/assets/img/berkeley.png" style="height: 40px; width: auto;" alt="Cal">
+      </a>
+      <a href="https://msc.berkeley.edu/" target="_blank" title="MSC Lab">
+        <img src="/assets/img/msc.png" style="height: 40px; width: auto;" alt="MSC">
+      </a>
+      <a href="https://ev.studentorg.berkeley.edu/" target="_blank" title="Formula Electric">
+        <img src="/assets/img/formula.png" style="height: 40px; width: auto;" alt="Formula EV">
+      </a>
+    </div>
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: false # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: false
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
-Escreva sua biografia aqui. Diga ao mundo sobre você. Adicione o link para o seu [subreddit](http://reddit.com) favorito. Você pode colocar uma foto também. O código já está dentro, basta nomear sua foto como `prof_pic.jpg` e colocá-la na pasta `img/`.
+I am a first-year at the **University of California, Berkeley**, majoring in **Mechanical Engineering** with a minor in **Electrical Engineering and Computer Sciences (EECS)**. 
 
-Coloque seu endereço / caixa postal / outras informações logo abaixo da sua foto. Você também pode desabilitar qualquer um desses elementos editando a propriedade `profile` do cabeçalho YAML do seu `_pages/about.md`. Edite `_bibliography/papers.bib` e o Jekyll renderizará sua [página de publicações](/multi-language-al-folio/publications/) automaticamente.
+I am currently an undergraduate researcher at the [Mechanical Systems Controls (MSC) Lab](https://msc.berkeley.edu/) and Vehicle Dynamics Engineer at [Formula Electric at Berkeley](https://ev.studentorg.berkeley.edu/).
 
-Adicione links para seus perfis de mídias sociais também. Este tema está configurado para usar [Font Awesome icons](https://fontawesome.com/) e [Academicons](https://jpswalsh.github.io/academicons/), como os visto abaixo. Adicione seu Facebook, Twitter, LinkedIn, Google Scholar ou simplesmente desative todos eles.
+I am also a **Masason Foundation Scholar** (8th Generation), a community of youth supported by the foundation established by Masayoshi Son, receiving **full funding for my education and grants for research projects**. 
+
+I am passionate about engineering solutions in robotics.
